@@ -1,0 +1,33 @@
+#jeu{
+    background-color: chartreuse;
+    display: flex;
+}
+
+#pyramidePhoto{
+    background-color: purple;
+    
+}
+
+#photoEnfant{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.rangee{
+    height: 18%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.enfant{
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid black 1px;
+}
